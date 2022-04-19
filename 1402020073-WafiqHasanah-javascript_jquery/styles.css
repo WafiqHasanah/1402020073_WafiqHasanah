@@ -1,0 +1,269 @@
+.backgroundup {
+    position: relative;
+    z-index: 9999;
+}
+
+.backgroundup span {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-backgroundup-1 {
+    padding: 5px 32px;
+    background-color: #f4f4f4;
+}
+
+.backgroundup .item-backgroundup-1 span {
+    color: #929292;
+}
+
+.backgroundup .item-backgroundup-1 span:hover {
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.backgroundup .item-backgroundup-1 img {
+    width: 24px;
+}
+
+.item-backgroundup-2 {
+    padding: 8px 32px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.07) 8px 4px 6px -1px;
+}
+
+.item-backgroundup-2 .img-tokopedia {
+    width: 150px;
+}
+
+.item-backgroundup-2 .text-menu {
+    padding: 2px 5px;
+}
+
+.item-backgroundup-2 .text-menu:hover {
+    background-color: #f3f4f5 !important;
+    cursor: pointer !important;
+    color: #03ac0e;
+    border-radius: 5px;
+}
+
+.item-backgroundup-2 span {
+    color: #929292;
+}
+
+.item-backgroundup-2 .img-search,
+.item-backgroundup-2 .img-shop {
+    width: 20px;
+    cursor: pointer;
+}
+
+.item-backgroundup-2 .wrap-search {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 35px;
+}
+
+.item-backgroundup-2 .wrap-search .form-control {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #cdcdcd;
+    z-index: 1;
+}
+
+.item-backgroundup-2 .wrap-search .form-control::placeholder {
+    color: #cdcdcd;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-backgroundup-2 .wrap-search .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #03ac0e;
+}
+
+.item-backgroundup-2 .wrap-search .wrap-icon-search {
+    background-color: #f3f4f5;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 4%;
+}
+
+.item-backgroundup-2 .wrap-search .wrap-icon-search .img-search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-backgroundup-2 .wrap-img-shop {
+    position: relative;
+    background-color: transparent;
+    height: max-content;
+    width: max-content;
+    padding: 0px 8px 5px 8px;
+    border-radius: 3px;
+    transition-duration: 0.5px;
+}
+
+.item-backgroundup-2 .wrap-img-shop:hover {
+    background-color: #f3f4f5;
+    cursor: pointer;
+}
+
+.line {
+    font-size: 26px;
+    color: #cdcdcd;
+    margin-bottom: 8px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.backgroundup .btn {
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #03ac0e;
+}
+
+.backgroundup .btn:first-child {
+    background-color: #ffffff;
+    border: 1px solid #03ac0e;
+    color: #03ac0e;
+}
+
+.text-under-search {
+    margin-left: 17%;
+}
+
+.text-under-search span:hover {
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+
+/* Carousel Style */
+
+.carousel {
+    position: relative;
+    top: 26px;
+    margin: 0px 30px 0px 30px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    width: 90%;
+}
+
+.carousel-iklan3 {
+    height: 302px;
+}
+
+.carousel-indicators {
+    /* margin-left: -43%; */
+    justify-content: center;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 60px;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+
+/* kategori */
+
+.kategori {
+    position: relative;
+    top: 50px;
+    margin: 8px 110px;
+    box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.carousel2 {
+    position: relative;
+    top: 0;
+}
+
+.card-category {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.kategori img {
+    width: 80%;
+}
+
+.item-menu {
+    padding: 10px 0;
+    color: #929292;
+    border-bottom: 2px solid transparent;
+}
+
+.item-menu:hover {
+    border-bottom: 2px solid #03ac0e;
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.carousel-inner2 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-scroll {
+    overflow-x: scroll;
+}
+
+.menu-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.item-scroll {
+    border-radius: 14px;
+}
+
+
+/* style menu foot */
+
+.menu-foot {
+    position: relative;
+    padding: 8px 32px;
+    top: 190px;
+}
+
+.menu-foot img {
+    width: 30px;
+}
+
+.menu-foot h4 {
+    font-size: 13px;
+}
+
+
+/* style menu foot2 */
+
+.menu-foot2 {
+    position: relative;
+    padding: 8px 32px;
+    top: 190px;
+}
+
+.menu-foot2 img {
+    width: 40%;
+}
+
+.menu-foot3 {
+    position: relative;
+    padding: 8px 32px;
+    top: 190px;
+}
